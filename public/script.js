@@ -1,7 +1,7 @@
 // Configuration
 const config = {
     // Set this to your Render backend URL when deployed
-    apiUrl: 'https://your-render-app-name.onrender.com/api/jobs/process',
+    apiUrl: 'https://job-portal-backend-6489.onrender.com/api/jobs/process',
     // For local development
     localApiUrl: 'http://localhost:5000/api/jobs/process'
 };
