@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Portal - AI Processor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Job Portal - AI Job Creator</h1>
+        <p>Paste your job details below and click "Process" to generate and save a job posting to the database.</p>
+        
+        <textarea id="jobDetails" placeholder="Paste job details here...
+
+Example:
+Title: Senior Frontend Developer
+Company: TechCorp
+Location: San Francisco, CA
+Job Type: Full-time
+Salary: $120,000 - $150,000
+Skills required: JavaScript, React, TypeScript, CSS
+Experience: 5+ years frontend development
+Description: Looking for a Senior Frontend Developer to join our team..."></textarea>
+        
+        <button id="processBtn">Process Job</button>
+        
+        <div id="statusContainer" style="display: none;" class="status"></div>
+        
+        <pre id="resultContainer" style="display: none;"></pre>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
